@@ -1,9 +1,14 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
+import Banner from "./banner";
+import Item from "./item";
 
 export default class Body extends Component {
   render() {
     return (
-      <div>body</div>
-    )
+      <div>
+        <Banner />
+        <Item />
+      </div>
+    );
   }
 }
